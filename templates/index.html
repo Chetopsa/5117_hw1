@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Home{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/css/pure-min.css">
+   
+</head>
+<body>
+
+<div class="header">
+    <h1>sup</h1>
+</div>
+
+<div class="content">
+    {% block content %}
+    <p>Please fill out the survey.</p>
+    {% endblock %}
+</div>
+
+<div class="footer">
+    <p>bye</p>
+</div>
+
+<script src="/static/js/jquery.min.js"></script>
+</body>
+</html>
